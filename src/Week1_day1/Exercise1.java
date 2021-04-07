@@ -1,6 +1,9 @@
 package Week1_day1;
-
+/**
+ * @author  Jonathan Frey
+ */
 public class Exercise1 {
+
     static void printDots(int a){
         for(int i =0;i<a;i++){
             System.out.print(".");

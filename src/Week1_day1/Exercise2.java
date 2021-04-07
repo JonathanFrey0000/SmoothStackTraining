@@ -3,6 +3,9 @@ package Week1_day1;
 import java.util.Random;
 import java.util.Scanner;
 
+/**
+ * @author  Jonathan Frey
+ */
 public class Exercise2 {
     static int guess=0;
     static Scanner myObj = new Scanner(System.in);
