@@ -21,7 +21,7 @@ public class Assignment {
             result.forEach(x -> System.out.print(x.getFileName() + ", "));
             System.out.println();
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("IO Exception");
         }
     }
     public static void appendToFile(String file_path, String text) {
