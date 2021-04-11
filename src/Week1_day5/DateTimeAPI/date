@@ -1,0 +1,6 @@
+1.LocalDateTime
+2.Use the previous method of a TemporalAdjuster.
+3.Both ZoneId and ZoneOffset track an offset from Greenwich/UTC time, but the ZoneOffset class tracks only the absolute offset from Greenwich/UTC.
+4. Initialise a ZonedDateTime object with an instant.atZone(ZoneId.of(location));
+Initialise an Instant object with a ZoneDateTime obj.toInstant();
+
