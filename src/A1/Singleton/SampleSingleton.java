@@ -2,8 +2,9 @@ package A1.Singleton;
 
 import java.math.BigDecimal;
 import java.sql.*;
-
-
+/**
+ * @author  Jonathan Frey
+ */
 public class SampleSingleton {
 
     private static volatile Connection conn = null;
