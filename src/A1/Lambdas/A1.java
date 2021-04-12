@@ -1,4 +1,4 @@
-package Assignment_1.A1;
+package A1.Lambdas;
 
 import java.io.BufferedReader;
 import java.io.IOException;

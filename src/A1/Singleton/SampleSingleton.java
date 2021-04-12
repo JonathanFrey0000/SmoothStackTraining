@@ -1,4 +1,4 @@
-package Assignment_1.A6;
+package A1.Singleton;
 
 import java.math.BigDecimal;
 import java.sql.*;
