@@ -3,7 +3,9 @@ package A1.Functional;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
-
+/**
+ * @author  Jonathan Frey
+ */
 public class Demo {
     public static void main(String[] args){
         List<Integer> rightDigit = Arrays.asList(1, 22, 93, 886, 1, 0).stream().map(x -> x % 10).collect(Collectors.toList());
