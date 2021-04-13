@@ -2,7 +2,7 @@ package A1.Recursion;
 
 public class GroupSumClump {
 
-    public static boolean groupSumClump(int start, int[] nums, int target) {
+    public boolean groupSumClump(int start, int[] nums, int target) {
         if(start >= nums.length)
             return target == 0;
 
@@ -23,8 +23,9 @@ public class GroupSumClump {
         return false;
     }
     public static void main(String[] args){
-        System.out.println(groupSumClump(0, new int[]{2, 4, 8}, 10));
-        System.out.println(groupSumClump(0, new int[]{1, 2, 4, 8, 1}, 14));
-        System.out.println(groupSumClump(0, new int[]{2, 4, 4, 8}, 14));
+        GroupSumClump obj = new GroupSumClump();
+        System.out.println(obj.groupSumClump(0, new int[]{2, 4, 8}, 12));
+        System.out.println(obj.groupSumClump(0, new int[]{1, 2, 4, 8, 1}, 14));
+        System.out.println(obj.groupSumClump(0, new int[]{2, 4, 4, 8}, 14));
     }
 }

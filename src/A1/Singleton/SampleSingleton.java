@@ -19,15 +19,5 @@ public class SampleSingleton {
         }
         return instance;
     }
-
-    public static void databaseQuery(BigDecimal input) throws SQLException {
-        conn = DriverManager.getConnection("url of database");
-        Statement st = conn.createStatement();
-        ResultSet rs = st.executeQuery("select id from table");
-        int x = 0;
-        while(rs.next()) {
-            x = rs.getInt(0) * input.intValue();
-        }
-    }
 }
 

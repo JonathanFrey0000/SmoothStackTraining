@@ -14,9 +14,18 @@ class PerformOperationDemo {
         return p.check(num);
     }
 
-    PerformOperation isOdd = (a) -> a % 2 != 0;
-    PerformOperation isPrime = (int a) -> java.math.BigInteger.valueOf(a).isProbablePrime(1);
-    PerformOperation isPalindrome = (int a) -> Integer.toString(a).equals( new StringBuilder(Integer.toString(a)).reverse().toString() );
+    PerformOperation isOdd() {
+        PerformOperation po = (int a)-> a%2 == 0 ? false : true;
+        return po;
+    }
+    PerformOperation isPrime(){
+        PerformOperation po = (int a) -> java.math.BigInteger.valueOf(a).isProbablePrime(1);
+        return po;
+    }
+    PerformOperation isPalindrome(){
+        PerformOperation po = (int a) -> Integer.toString(a).equals( new StringBuilder(Integer.toString(a)).reverse().toString() );
+        return po;
+    }
 }
 
 
@@ -36,15 +45,15 @@ class Solution {
             int ch = Integer.parseInt(st.nextToken());
             int num = Integer.parseInt(st.nextToken());
             if (ch == 1) {
-                op = ob.isOdd;
+                op = ob.isOdd();
                 ret = ob.checker(op, num);
                 ans = (ret) ? "ODD" : "EVEN";
             } else if (ch == 2) {
-                op = ob.isPrime;
+                op = ob.isPrime();
                 ret = ob.checker(op, num);
                 ans = (ret) ? "PRIME" : "COMPOSITE";
             } else if (ch == 3) {
-                op = ob.isPalindrome;
+                op = ob.isPalindrome();
                 ret = ob.checker(op, num);
                 ans = (ret) ? "PALINDROME" : "NOT PALINDROME";
 
