@@ -12,7 +12,7 @@ import com.ss.uto.dao.RouteDAO;
 import com.ss.uto.entities.Route;
 
 /**
- * @author Parker W.
+ * @author Jonathan Frey
  *
  */
 public class GetRoute implements GetMenu<Route> {

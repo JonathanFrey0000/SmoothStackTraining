@@ -15,13 +15,14 @@ import com.ss.uto.entities.Flight;
 import com.ss.uto.entities.Route;
 
 /**
- * @author Parker W.
+ * @author Jonathan Frey
+ *
  */
 public class AddFlight implements Menu {
 
 	@Override
 	public void operate(Connection conn) throws SQLException {
-		// Get the origin airport
+	
 		Flight flight = new Flight();
 		FlightDAO fdao = new FlightDAO(conn);
 		GetAirport airportMenu = new GetAirport();
@@ -31,7 +32,6 @@ public class AddFlight implements Menu {
 
 		Airport originPort = airportMenu.getItem(conn); // get the origin airport
 
-		// Get the destination airport or create a new one first
 		System.out.println("What would you like to do for the destination?");
 		System.out.println("1) Select existing airport");
 		System.out.println("2) Create new airport first");

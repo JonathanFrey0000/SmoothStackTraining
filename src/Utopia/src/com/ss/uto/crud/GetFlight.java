@@ -12,7 +12,7 @@ import com.ss.uto.dao.FlightDAO;
 import com.ss.uto.entities.Flight;
 
 /**
- * @author Parker W.
+ * @author Jonathan Frey
  *
  */
 public class GetFlight implements GetMenu<Flight> {

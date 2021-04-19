@@ -11,7 +11,7 @@ import com.ss.uto.dao.UserDAO;
 import com.ss.uto.entities.User;
 
 /**
- * @author Parker W.
+ * @author Jonathan Frey
  *
  */
 public class DeleteEmployee implements Menu {

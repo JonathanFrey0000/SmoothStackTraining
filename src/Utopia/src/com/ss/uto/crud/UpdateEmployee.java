@@ -13,7 +13,7 @@ import com.ss.uto.entities.User;
 import com.ss.uto.entities.UserRole;
 
 /**
- * @author Parker W.
+ * @author Jonathan Frey
  *
  */
 public class UpdateEmployee implements Menu {

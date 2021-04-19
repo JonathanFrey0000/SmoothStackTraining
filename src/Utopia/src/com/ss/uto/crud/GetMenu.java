@@ -7,7 +7,7 @@ import java.sql.Connection;
 import java.sql.SQLException;
 
 /**
- * @author Parker W.
+ * @author Jonathan Frey
  *
  */
 public interface GetMenu<T> {

@@ -10,7 +10,7 @@ import java.util.Scanner;
 import com.ss.uto.entities.Flight;
 
 /**
- * @author Parker W.
+ * @author Jonathan Frey
  *
  */
 public class ReadSeats implements Menu {

@@ -10,7 +10,7 @@ import java.util.Scanner;
 import com.ss.uto.entities.User;
 
 /**
- * @author Parker W.
+ * @author Jonathan Frey
  *
  */
 public class ReadEmployees implements Menu {

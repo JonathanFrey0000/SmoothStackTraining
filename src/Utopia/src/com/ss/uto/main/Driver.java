@@ -42,7 +42,7 @@ public class Driver {
 			}
 		} while (done);
 		
-		input.close();;
+		input.close();
 
 	}
 

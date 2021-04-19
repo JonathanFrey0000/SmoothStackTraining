@@ -7,8 +7,8 @@ import java.sql.Connection;
 import java.sql.SQLException;
 
 /**
- * @author Parker W. Functional Interface for menus, serves to standardize the
- *         menus and ensure that they all have a way to be used.
+ * @author Jonathan Frey
+ *
  */
 public interface Menu {
 

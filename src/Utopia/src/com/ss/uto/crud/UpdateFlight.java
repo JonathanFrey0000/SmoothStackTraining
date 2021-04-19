@@ -14,7 +14,7 @@ import com.ss.uto.entities.Flight;
 import com.ss.uto.entities.Route;
 
 /**
- * @author Parker W.
+ * @author Jonathan Frey
  *
  */
 public class UpdateFlight implements Menu{

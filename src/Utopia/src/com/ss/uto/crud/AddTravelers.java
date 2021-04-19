@@ -13,7 +13,7 @@ import com.ss.uto.entities.Booking;
 import com.ss.uto.entities.Passenger;
 
 /**
- * @author Parker W.
+ * @author Jonathan Frey
  *
  */
 public class AddTravelers implements Menu {

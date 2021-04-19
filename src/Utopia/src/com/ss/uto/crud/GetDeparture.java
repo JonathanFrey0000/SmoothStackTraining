@@ -13,7 +13,7 @@ import java.util.Scanner;
 import com.ss.uto.dao.FlightDAO;
 
 /**
- * @author Parker W.
+ * @author Jonathan Frey
  *
  */
 public class GetDeparture implements GetMenu<Date> {

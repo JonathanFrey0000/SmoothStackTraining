@@ -10,7 +10,7 @@ import java.util.Scanner;
 import com.ss.uto.entities.Passenger;
 
 /**
- * @author Parker W.
+ * @author Jonathan Frey
  *
  */
 public class ReadTravelers implements Menu {

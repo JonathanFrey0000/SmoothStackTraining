@@ -7,11 +7,6 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-/**
- * @author Parker W.
- *
- *         Service class, handles connections to the server
- */
 public class ConnectionUtil {
 
 	private static final String driver = "com.mysql.cj.jdbc.Driver";

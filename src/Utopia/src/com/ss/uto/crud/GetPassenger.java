@@ -10,9 +10,8 @@ import java.util.Scanner;
 
 import com.ss.uto.dao.PassengerDAO;
 import com.ss.uto.entities.Passenger;
-
 /**
- * @author Parker W.
+ * @author Jonathan Frey
  *
  */
 public class GetPassenger implements GetMenu<Passenger> {

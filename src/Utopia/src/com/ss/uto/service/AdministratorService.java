@@ -36,7 +36,7 @@ import com.ss.uto.crud.UpdateTraveler;
  */
 public class AdministratorService {
 	ConnectionUtil conUtil;
-	Connection conn = null;
+	Connection conn;
 
 	public AdministratorService() {
 		conUtil = new ConnectionUtil();

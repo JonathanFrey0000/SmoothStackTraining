@@ -9,9 +9,8 @@ import java.util.Scanner;
 
 import com.ss.uto.entities.Airport;
 
-
 /**
- * @author Parker W.
+ * @author Jonathan Frey
  *
  */
 public class ReadAirports implements Menu {

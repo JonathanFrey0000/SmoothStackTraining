@@ -12,7 +12,7 @@ import com.ss.uto.dao.BookingDAO;
 import com.ss.uto.entities.Booking;
 
 /**
- * @author Parker W.
+ * @author Jonathan Frey
  *
  */
 public class GetBooking implements GetMenu<Booking> {

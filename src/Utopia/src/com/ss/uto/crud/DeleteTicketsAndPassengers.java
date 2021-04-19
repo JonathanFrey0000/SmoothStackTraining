@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.ss.uto.crud;
 
 import java.sql.Connection;
@@ -11,7 +8,7 @@ import com.ss.uto.dao.BookingDAO;
 import com.ss.uto.entities.Booking;
 
 /**
- * @author Parker W.
+ * @author Jonathan Frey
  *
  */
 public class DeleteTicketsAndPassengers implements Menu {

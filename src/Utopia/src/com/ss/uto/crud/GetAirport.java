@@ -12,7 +12,7 @@ import com.ss.uto.dao.AirportDAO;
 import com.ss.uto.entities.Airport;
 
 /**
- * @author Parker W.
+ * @author Jonathan Frey
  *
  */
 public class GetAirport implements GetMenu<Airport> {
